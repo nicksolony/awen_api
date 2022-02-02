@@ -12,7 +12,7 @@ User.create(
             first_name:'Anna',
             last_name:'Solony',
             password:'1234',
-            dob:1986-06-04,
+            dob:Date.new(1986,6,4),
             desc:'This is my portfolio page',
             city:'Queens',
             state:'NY',
