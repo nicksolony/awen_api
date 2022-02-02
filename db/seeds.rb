@@ -26,3 +26,12 @@ User.create(
         }
     ]
 )
+
+Category.create(
+    [
+        {name:'Logo', desc:'Design Logo for Company'},
+        {name:'Flyer', desc:'Create a flyer for company'},
+        {name:'Brochure', desc:'Design of brochure using stock images and company logo'},
+        {name:'Web-Site Template', desc:'Create a template that can be used by web designer'}
+    ]
+)
