@@ -4,7 +4,7 @@ class CreateSkills < ActiveRecord::Migration[6.0]
       t.string :name
       t.integer :years
       t.boolean :show
-      t.reference :user
+      t.references :user
 
       t.timestamps
     end
