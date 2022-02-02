@@ -2,11 +2,11 @@ class UsersController < ApplicationController
   before_action :set_user, only: [:show, :update, :destroy]
 
   # GET /users
-  def index
-    @users = User.all
-
-    render json: @users
-  end
+  #def index
+  #  @users = User.all
+#
+  #  render json: @users
+  #end
 
   # GET /users/1
   def show
@@ -14,15 +14,15 @@ class UsersController < ApplicationController
   end
 
   # POST /users
-  def create
-    @user = User.new(user_params)
-
-    if @user.save
-      render json: @user, status: :created, location: @user
-    else
-      render json: @user.errors, status: :unprocessable_entity
-    end
-  end
+  #def create
+  #  @user = User.new(user_params)
+#
+  #  if @user.save
+  #    render json: @user, status: :created, location: @user
+  #  else
+  #    render json: @user.errors, status: :unprocessable_entity
+  #  end
+  #end
 
   # PATCH/PUT /users/1
   def update
@@ -34,14 +34,15 @@ class UsersController < ApplicationController
   end
 
   # DELETE /users/1
-  def destroy
-    @user.destroy
-  end
+  #def destroy
+  #  @user.destroy
+  #end
 
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
-      @user = User.find(params[:id])
+      #@user = User.find(params[:id])    - THIS CORRECT FUNCTION, BUT WE ONLY HAVE 1 USER, THEREFORE USER WILL ALWAYS BE USER 1
+      @user = User.find(1)
     end
 
     # Only allow a trusted parameter "white list" through.
