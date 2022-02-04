@@ -17,9 +17,9 @@ class ItemsController < ApplicationController
   # POST /items
   def create
     @item = Item.new(item_params)
-    # if !@item[:order]?
-      # @item[:order] = Item.all.count+1
-    # end
+    if !@item.order?
+      @item.order = Item.all.count+1
+    end
 
     if @item.save
       render json: @item, status: :created, location: @item
