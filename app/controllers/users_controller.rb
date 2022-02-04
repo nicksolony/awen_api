@@ -10,7 +10,7 @@ class UsersController < ApplicationController
 
   # GET /users/1
   def show
-    render json: @user, :include => [:skills,:items]
+    render json: @user, :include => [:skills,:items,:jobs,:educations]
   end
 
   # POST /users

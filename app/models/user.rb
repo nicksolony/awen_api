@@ -4,6 +4,8 @@ class User < ApplicationRecord
 
     has_many :skills
     has_many :items
+    has_many :jobs
+    has_many :educations
     has_many :categories, :through => :items
 
     
