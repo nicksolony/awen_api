@@ -37,10 +37,10 @@
 #)
 #
 
-Skill.create(
-    [
-        {name:'Photoshop', years:18, show:1, user_id:1},
-        {name:'Illustrator', years:18, show:1, user_id:1},
-        {name:'PowerPoint', years:15, show:0, user_id:1}
-    ]
-)
+# Skill.create(
+    # [
+        # {name:'Photoshop', years:18, show:1, user_id:1},
+        # {name:'Illustrator', years:18, show:1, user_id:1},
+        # {name:'PowerPoint', years:15, show:0, user_id:1}
+    # ]
+# )
