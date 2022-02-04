@@ -45,12 +45,14 @@
     # ]
 # )
 
-Item.create(
-    [
-        {name:'Logo Avia company', desc:'asgdjhsgadjhsagdjh', skill_id:2, order:2, img_url:'https://cdn.logo.com/hotlink-ok/logo-social.png', user_id:1, category_id:1},
-        {name:'flyer for company', desc:'aasdas asddasd asdasd', skill_id:1, order:1, img_url:'https://www.adobe.com/express/create/media_19da0db39efaa40b43fa0f5fefb7aeb14328a929e.jpeg?width=400&format=jpeg&optimize=medium', user_id:1, category_id:2},
-        {name:'Shop website layoyt', desc:'layout for web store', skill_id:1, order:3, img_url:'https://iotvnaw69daj.i.optimole.com/AXVzL2w.n2y9~6666f/w:auto/h:auto/q:90/https://www.codeinwp.com/wp-content/uploads/2019/09/figma.jpg', user_id:1, category_id:4},
-        {name:'flyer for avia company', desc:'aasdas asddasd asdasd', skill_id:1, img_url:'https://dco-assets.everestads.net/iCornerStore/source-images/MICROSOFTSTORE/current/901f10da318d877924655b8be15fd43d.png', user_id:1, category_id:2}
+# Item.create(
+    # [
+        # {name:'Logo Avia company', desc:'asgdjhsgadjhsagdjh', skill_id:2, order:2, img_url:'https://cdn.logo.com/hotlink-ok/logo-social.png', user_id:1, category_id:1},
+        # {name:'flyer for company', desc:'aasdas asddasd asdasd', skill_id:1, order:1, img_url:'https://www.adobe.com/express/create/media_19da0db39efaa40b43fa0f5fefb7aeb14328a929e.jpeg?width=400&format=jpeg&optimize=medium', user_id:1, category_id:2},
+        # {name:'Shop website layoyt', desc:'layout for web store', skill_id:1, order:3, img_url:'https://iotvnaw69daj.i.optimole.com/AXVzL2w.n2y9~6666f/w:auto/h:auto/q:90/https://www.codeinwp.com/wp-content/uploads/2019/09/figma.jpg', user_id:1, category_id:4},
+        # {name:'flyer for avia company', desc:'aasdas asddasd asdasd', skill_id:1, img_url:'https://dco-assets.everestads.net/iCornerStore/source-images/MICROSOFTSTORE/current/901f10da318d877924655b8be15fd43d.png', user_id:1, category_id:2}
+# 
+    # ]
+# )
 
-    ]
-)
+
