@@ -10,7 +10,7 @@ class UsersController < ApplicationController
 
   # GET /users/1
   def show
-    render json: @user
+    render json: @user, :include => [:skills,:items]
   end
 
   # POST /users
@@ -35,7 +35,9 @@ class UsersController < ApplicationController
 
   #DELETE /users/1
   def destroy
-   @user.destroy
+    if !@user.id === 1 
+      @user.destroy
+    end
   end
 
   private
