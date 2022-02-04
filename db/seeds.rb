@@ -56,3 +56,16 @@
 # )
 
 
+Job.create(
+    [
+        {position:'Freelance Graphic Designer', from:'2021-08-01', Description:create all graphic things, current:1, show:1, company:Avelo Airlines},
+        {position:'Freelance Graphic Designer', from:'2006-09-01', Description:create all graphic things, current:1, show:1, company:Self-employed},
+        {position:'Graphic Designer', from:'2005-01-01', to:'2006-09-01', Description:create all graphic things, current:0, show:1, company:Kaykov Media}
+    ]
+)
+
+Education.create(
+    [
+        {field:'Management', location:'Ukraine', from:'1899-12-30', to:'2005-06-30', show:1, user_id:1, institution:'East Ukrainian Volodymyr Dahl National University'}
+    ]
+)
