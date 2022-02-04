@@ -3,7 +3,8 @@ class ItemsController < ApplicationController
 
   # GET /items
   def index
-    @items = Item.all
+    @items = Item.all.order(order: :desc)
+    
 
     render json: @items
   end
@@ -16,9 +17,9 @@ class ItemsController < ApplicationController
   # POST /items
   def create
     @item = Item.new(item_params)
-    if @item.order = null
-      @item.order = @items.count + 1
-    end
+    # if !@item[:order]?
+      # @item[:order] = Item.all.count+1
+    # end
 
     if @item.save
       render json: @item, status: :created, location: @item
