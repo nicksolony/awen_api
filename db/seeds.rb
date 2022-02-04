@@ -58,9 +58,9 @@
 
 Job.create(
     [
-        {position:'Freelance Graphic Designer', from:'2021-08-01', Description:create all graphic things, current:1, show:1, company:Avelo Airlines},
-        {position:'Freelance Graphic Designer', from:'2006-09-01', Description:create all graphic things, current:1, show:1, company:Self-employed},
-        {position:'Graphic Designer', from:'2005-01-01', to:'2006-09-01', Description:create all graphic things, current:0, show:1, company:Kaykov Media}
+        {position:'Freelance Graphic Designer', from:'2021-08-01', desc:'create all graphic things', current:1, show:1, company:'Avelo Airlines'},
+        {position:'Freelance Graphic Designer', from:'2006-09-01', desc:'create all graphic things', current:1, show:1, company:'Self-employed'},
+        {position:'Graphic Designer', from:'2005-01-01', to:'2006-09-01', desc:'create all graphic things', current:0, show:1, company:'Kaykov Media'}
     ]
 )
 
